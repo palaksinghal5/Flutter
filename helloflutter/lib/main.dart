@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  var app = MaterialApp(home: Text('Hi there, my name is Palak'));
+  runApp(app);
 }
 
+/*
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -111,3 +113,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+*/
