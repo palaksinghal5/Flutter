@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-
+import'src/app.dart';
 void main() {
-  var app = MaterialApp(home: Text('Hi there, my name is Palak'));
-  runApp(app);
+  
+  runApp(App());
 }
+
+
 
 /*
 class MyApp extends StatelessWidget {
